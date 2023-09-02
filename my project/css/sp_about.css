@@ -1,0 +1,198 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 50px;
+ background-image:url('/img/pexels-alleksana-4284290.jpg');
+}
+
+.nav-list{
+    display: flex;
+    list-style:none;
+    
+}
+
+.nav-list li{
+    padding: 23px;
+    display: flex;
+
+}
+
+.nav-list li a{
+    text-decoration: none;    
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size:23px;
+}
+.background{
+    
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: rgba(0, 0, 0, 0.511)url('../img/pexels-carlos-montelara-6091432.jpg');
+   
+}
+.copyright{
+    background-color: black;
+    height:auto;
+}
+.sphome::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.sphome:hover::after {
+    width: 7%;
+}
+.about::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.about:hover::after {
+    width:5.2%;
+    
+}
+.contect::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.contect:hover::after {
+    width:7.3%;
+    
+}
+.frames::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.frames:hover::after {
+    width:6.2%;
+    
+}
+.sectionTag::after{
+    content:"";
+    position: absolute;
+    height: 5px;
+    width: 0;
+    background-color:rgba(255, 0, 0, 0.903);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.sectionTag:hover::after {
+    width:20.2%;
+}
+.copyright{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    align-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top:auto;
+    
+}
+.maintag{
+    font-size:18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:10px;
+    padding:auto;
+}
+.owner{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.ownerin{
+    height: 300px;
+   border-radius: 300px;
+}
+.ownername{
+text-align: center;
+align-items: center;
+align-content: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size:35px;
+}
+.ownername::after{
+    content:"";
+    position: absolute;
+    height: 4px;
+    width: 0;
+    background-color:rgb(24, 23, 23);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:680px;
+    display: flex;
+}
+.ownername:hover::after{
+    width:10.5%;
+}
+.linep{
+   background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4px;
+    border-radius:7px;
+}
+.journy{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:35px; 
+}
+.head{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px; 
+    text-align: center;
+    padding: auto;
+}
+.journeyText{
+    text-align: center;
+    font-size: 12px;
+}

@@ -1,0 +1,166 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 50px;
+ background-image:url('/img/pexels-alleksana-4284290.jpg');
+}
+
+.nav-list{
+    display: flex;
+    list-style:none;
+    
+}
+
+.nav-list li{
+    padding: 23px;
+    display: flex;
+
+}
+
+.nav-list li a{
+    text-decoration: none;    
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size:23px;
+}
+.background{
+    
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: rgba(0, 0, 0, 0.511)url('../img/pexels-carlos-montelara-6091432.jpg');
+   
+}
+.secRGT{
+    
+    height:500px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    max-width:80%;
+    margin: auto;
+}
+
+.pars{
+    padding:0px 65px;
+}
+
+.sectionTag{
+    font-size: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 0, 0);
+}
+.SubTag{
+    font-size: 21px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgFluid{
+    border-radius:25px;
+    height:300px;
+}
+.copyright{
+    background-color: black;
+    height:auto;
+}
+.sphome::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.sphome:hover::after {
+    width: 7%;
+}
+.about::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.about:hover::after {
+    width:5.2%;
+    
+}
+.contect::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.contect:hover::after {
+    width:7.3%;
+    
+}
+.frames::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.frames:hover::after {
+    width:6.2%;
+    
+}
+.sectionTag::after{
+    content:"";
+    position: absolute;
+    height: 5px;
+    width: 0;
+    background-color:rgba(255, 0, 0, 0.903);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.sectionTag:hover::after {
+    width:20.2%;
+}
+.copyright{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    align-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top:auto;
+    
+}
+.maintag{
+    font-size:18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:10px;
+    padding:auto;
+}

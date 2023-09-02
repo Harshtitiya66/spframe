@@ -1,0 +1,223 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 50px;
+ background-image:url('/img/pexels-alleksana-4284290.jpg');
+}
+
+.nav-list{
+    display: flex;
+    list-style:none;
+    
+}
+
+.nav-list li{
+    padding: 23px;
+    display: flex;
+
+}
+
+.nav-list li a{
+    text-decoration: none;    
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size:23px;
+}
+.background{
+    
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: rgba(0, 0, 0, 0.511)url('../img/pexels-carlos-montelara-6091432.jpg');
+   
+}
+.sphome::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.sphome:hover::after {
+    width: 7%;
+}
+.about::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.about:hover::after {
+    width:5.2%;
+    
+}
+.contect::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.contect:hover::after {
+    width:7.3%;
+    
+}
+.frames::after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.frames:hover::after {
+    width:6.2%;
+    
+}
+.gmailicon{
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.icon{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+.instagramicon{
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.facebookicon{
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.linkedinicon{
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.one{
+    background-color: rgb(232, 223, 223);
+    border-radius: 110px;
+    width:110px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.two{
+    background-color: rgb(232, 223, 223);
+    border-radius: 110px;
+    width:110px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.three{
+    background-color: rgb(232, 223, 223);
+    border-radius: 110px;
+    width:110px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.four{
+    background-color: rgb(232, 223, 223);
+    border-radius: 110px;
+    width:110px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contectus{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size:35px;
+}
+.contectus::after{
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color:rgb(255, 0, 0);
+    transition: all ease 0.2s;
+    margin: auto;
+    left:auto;
+    display: flex;
+}
+.contectus :hover ::after{
+    width:7.3%;
+}
+.one:hover{
+    filter: blur(1.2px);
+    background-color:red;
+    border-radius:115px ;
+}
+.two:hover{
+    filter: blur(1.2px);
+    background-color:red;
+    border-radius:115px ;
+}
+.three:hover{
+    filter: blur(1.2px);
+    background-color:red;
+    border-radius:115px ;
+}
+.four:hover{
+    filter: blur(1.2px);
+    background-color:red;
+    border-radius:115px ;
+}
